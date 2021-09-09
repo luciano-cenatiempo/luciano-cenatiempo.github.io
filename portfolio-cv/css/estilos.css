@@ -299,16 +299,20 @@ ul.show{
     display: flex;
     position: relative;
     flex-direction: column;
-    object-fit: cover;
     border-radius: 10px;
     max-height: 200px;
     overflow: hidden;
+    
 }
 .proyecto_img{
     max-height: 200px;
     object-fit: cover;
     border-radius: 10px;
     transition: 1s;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    
 }
 .proyecto_info{
     display: flex;
