@@ -335,17 +335,19 @@ ul.show{
     margin: 30px;
     color: var(--secondary-color);
     font-weight:bold;
+    text-align: center;
     
 }
 
 .proyecto_info_description{
     text-align: center;
+    font-weight: bold;
 }
 .proyecto_btn_container{
 display: flex;
 justify-content: space-between;
 width: 80%;
-padding-top: 30px;
+/* padding-top: 30px; */
 }
 .btn_proyecto{
     text-decoration: none;
