@@ -303,6 +303,7 @@ ul.show{
     max-height: 200px;
     overflow: hidden;
     
+    
 }
 .proyecto_img{
     max-height: 200px;
@@ -326,12 +327,19 @@ ul.show{
     position: absolute;
     top: 200px;
     transition: all 0.5s;
+    padding: 5px;
+    
 }
+
 .proyecto_info_title{
     margin: 30px;
     color: var(--secondary-color);
     font-weight:bold;
     
+}
+
+.proyecto_info_description{
+    text-align: center;
 }
 .proyecto_btn_container{
 display: flex;
