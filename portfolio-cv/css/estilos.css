@@ -449,23 +449,26 @@ padding-top: 30px;
     text-decoration: none;
     font-size: 3rem;
     
-    
-    
 }
 .contacto_icon i {
-    background-color: #f4f4f4;
     color: var(--third-color);
-    padding: 10px ;
+    border-radius: 50%;
+    
+}
+.contacto_icon-content{
     margin-top: 10px;
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-content: center;
+    background-color: #f4f4f4;
     border-radius: 50%;
     transition:  0.3s;
+
 }
-.contacto_icon span {
-    margin-left: 10px;
-    font-size: 1rem;
-    color: #fff;
-}
-.contacto_icon:hover > i{
+
+.contacto_icon-content:hover {
     transform: scale(1.2);
 }
 /* ---FORMULARIO--- */

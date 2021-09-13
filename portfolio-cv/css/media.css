@@ -109,9 +109,6 @@
     }
 
     /* ----contacto -----*/
-    .contacto_icon-descripcion {
-        display: none;
-    }
     .form_btn-enviar{
         width: 90%;
         margin: auto;
