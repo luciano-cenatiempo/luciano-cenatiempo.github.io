@@ -1,7 +1,9 @@
 /*FUENTES*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400&display=swap');
+
 
 :root {
     --main-color: #1ef5ad;
@@ -188,6 +190,9 @@ ul.show{
 
 .descripcion_text{
     padding-top: 20px;
+    font-family: 'Georama', sans-serif;
+    /* font-weight: 400; */
+    font-style: italic;
 }
 
 
@@ -254,12 +259,20 @@ ul.show{
 .habilidades-lista{
     padding-top: 20px;
     list-style: none;
+    font-family: 'Georama', sans-serif;
+    font-size: 1.2rem;
     
 }
-.fa-star{
+
+.habilidades-lista li {
+    padding-left: 1em; 
+    text-indent: -.8em;
+  }
+  
+  .habilidades-lista li::before {
+    content: "\2605 ";
     color: var(--secondary-color);
-    margin-right: 10px;
-}
+  }
 
 
 /* ----Colores tecnologias--- */
