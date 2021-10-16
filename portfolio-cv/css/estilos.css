@@ -242,14 +242,16 @@ ul.show{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.tecnologias_card i {
-    font-size: 80px;
-    transition: 1.5s;
+    transition: 0.3s;
+
 }
 
-.tecnologias_card i:hover{
-    transform: rotate3d(0,1,0,360deg);
+
+.tecnologias_card:hover{
+    transform: scale(1.2);
+}
+.tecnologias_card img{
+    width: 50%;
 }
 .tecnologias_card span {
     font-size: 1.2rem;
