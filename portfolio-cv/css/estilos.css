@@ -240,7 +240,7 @@ ul.show{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     transition: 0.3s;
 
@@ -252,8 +252,15 @@ ul.show{
 }
 .tecnologias_card img{
     width: 50%;
+    position: relative;
+    top: 10px;
+}
+.php-image{
+   padding-top: 10px ;
 }
 .tecnologias_card span {
+    position:relative;
+    bottom: 10px;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
