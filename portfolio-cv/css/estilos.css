@@ -156,6 +156,7 @@ ul.show{
     color: #fff;
     font-size: 3rem;
 
+
 }
 .div_hero_info-text h1{
     font-size: 4rem;
@@ -163,6 +164,7 @@ ul.show{
     font-weight: 900;
     /* font-family: 'Oswald'; */
     line-height: 3.5rem;
+
     
 }
 
@@ -183,7 +185,7 @@ ul.show{
 .sobre-mi_img img{
     width: 80%;
     height: 80%;
-    border-radius: 10px;
+    border-radius: 50%;
     object-fit: cover;
 
 }
