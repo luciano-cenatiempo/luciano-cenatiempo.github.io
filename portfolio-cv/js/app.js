@@ -83,6 +83,7 @@ gsap.from('.proyecto1', {scrollTrigger: {trigger: '.proyecto1',},x: "-=500px", a
 gsap.from('.proyecto2', {scrollTrigger: {trigger: '.proyecto2',},x: "+=500px",autoAlpha: 0,duration: 0.8,delay: 0.5})
 gsap.from('.proyecto3', {scrollTrigger: {trigger: '.proyecto3',}, x: "-=500px", autoAlpha: 0, duration: 0.8, delay: 0.5})
 gsap.from('.proyecto4', {scrollTrigger: {trigger: '.proyecto4',},x: "+=500px",autoAlpha: 0,duration: 0.8,delay: 0.5})
+gsap.from('.proyecto5', {scrollTrigger: {trigger: '.proyecto5',}, x: "-=500px", autoAlpha: 0, duration: 0.8, delay: 0.5})
 
 gsap.from('.tecnologias', {scrollTrigger: {trigger: '.tecnologias', }, x: "-=500px", autoAlpha: 0, duration: 0.8, delay: 0.5 })
 gsap.from('.blandas', {scrollTrigger: {trigger: '.blandas',},x: "+=500px",autoAlpha: 0,duration: 0.8,delay: 0.5})
